@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ceaser", "Ceaser\Ceaser.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldCiphers", "OldCiphers\OldCiphers.csproj", "{30614940-B0F1-4DAA-A2F0-64C75F41D38C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADFGVX", "ADFGVX\ADFGVX.csproj", "{853B3C48-E878-4D94-89A9-3DC5FE072234}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{30614940-B0F1-4DAA-A2F0-64C75F41D38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30614940-B0F1-4DAA-A2F0-64C75F41D38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30614940-B0F1-4DAA-A2F0-64C75F41D38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853B3C48-E878-4D94-89A9-3DC5FE072234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853B3C48-E878-4D94-89A9-3DC5FE072234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853B3C48-E878-4D94-89A9-3DC5FE072234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853B3C48-E878-4D94-89A9-3DC5FE072234}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
