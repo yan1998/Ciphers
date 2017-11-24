@@ -14,22 +14,6 @@ namespace DigitalSignature
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MD5 sha = MD5.Create();
-            // byte[] b = new byte[3] { 5, 3, 2 };
-            using (Stream str2 = new StreamReader("Readme.txt").BaseStream)
-            {
-                byte[] b1 = sha.ComputeHash(str2);
-                string str = "";
-                MessageBox.Show(b1.Length.ToString());
-                foreach (var item in b1)
-                {
-                    str += Conversion.Hex(item)+"\n";
-                }
-                MessageBox.Show(str);            
-            } 
-        }
         private string Coder(string str,int key)
         {
             string result = String.Empty;
@@ -50,9 +34,7 @@ namespace DigitalSignature
         {
             OpenFileDialog open = new OpenFileDialog();
             if (open.ShowDialog() == DialogResult.OK)
-            {
                 textBox_Path.Text = open.FileName;
-            }
         }
 
         private void Button_Accept_Click(object sender, EventArgs e)
